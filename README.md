@@ -1,6 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UTDesign EPICS [Next.js](https://nextjs.org) Template Project
+
+This project is the template used for all EPICS CS projects. The core technologies used are:
+
+- [Next.js](https://nextjs.org): A full stack web development framework
+- [Prisma](https://prisma.io): A database ORM used to connect Next.js to a database
+- [PostgreSQL](https://www.postgresql.org): An open source SQL database
 
 ## Getting Started
+
+1. The first thing to do is edit this file. The title and description of the project should reflect your project, the organization it is for, and the target functionality.
+2. Setup your development environment to ensure you have everything installed to run the project (see the [prerequisites section](#prerequisites)).
+3. Run your project (see the [running the project section].(#running-your-project))
+4. Start coding!
+
+## Prerequisites
+
+## Running Your Project
 
 First, run the development server:
 
@@ -22,6 +37,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
+### Next.js
+
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -29,8 +46,4 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deploying Your Project
