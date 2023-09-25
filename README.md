@@ -15,7 +15,68 @@ This project is the template used for all EPICS CS projects. The core technologi
 
 ## Prerequisites
 
-## Running Your Project
+In order to run this project, a few technologies are required:
+
+- [Node.js](https://nodejs.org)
+- [Docker](https://www.docker.com)
+
+I you have these installed already, you can skip to [running this project](#running-this-project).
+
+Node.js is what allows us to write all our applications in JavaScript. Usually, JavaScript is run only in a web browser. By building on top of Node.js, we can write code that is executed on the server, simpler to write, and/or more secure.
+
+Docker is a container framework. Containers allow us to standardize the environment that software runs on. In the case of this project, we use Docker to run the PostgreSQL database. By running the database in a container, the database of every person on the team will be configured exactly the same way. Since databases are quite complex applications, this greatly reduces the likelihood of experiencing issues with the database.
+
+### Installing Node
+
+#### Node for Windows
+
+On windows, you can install node from the [Node.js downloads page](https://nodejs.org/en/download). Make sure you install the LTS (long-term support) version! Download and run the installer.
+
+:warning: If shown a check box to install "tools for native modules" make sure you check the box before clicking next :warning:
+
+Once the installation is finished (and you have restarted you computer if prompted), you can continue to [installing Docker](#installing-docker).
+
+#### Node for Mac/Linux
+
+It is recommended to use [node version manager (nvm)](https://github.com/nvm-sh/nvm) to install and run node on Mac/Linux. You can install is by using the command found [here](https://github.com/nvm-sh/nvm#installing-and-updating) in your terminal application. Alternatively, you can follow the installation instructions in the [windows instructions](#node-for-windows).
+
+Once you have installed node version manager installed, run the following commands in your terminal:
+
+```bash
+nvm install --lts # Install latest version of Node.js
+nvm install-latest-npm # Update npm to latest version
+```
+
+These commands do the following:
+
+1. Install the long-term support (LTS) version of Node. The LTS version is the version of Node that will receive security updates the longest.
+2. Update the node package manager (npm) to the latest version.
+
+This completes your installation of Node!
+
+### Installing Docker
+
+Docker Desktop is the recommended way to install Docker. If you choose to install Docker another way, there is no guarantee that you will have everything installed correctly. To install docker desktop download and run the installer from [Docker's Getting Started Page](https://www.docker.com/get-started/).
+
+### Installing pnpm (recommended/optional)
+
+pnpm is an improved version of the Node Package Manager (npm). Though not required, it is highly recommended that you install it. You can install it using the following command in your terminal/powershell after node has been installed
+
+```bash
+npm install -g pnpm
+```
+
+If you choose to install pnpm, then you can substitute all usage of 'npm' with 'pnpm' and all usage of 'npx' with 'pnpx'. Additionally, you can create an alias in your `.bashrc` (Linux) or `.zshrc` (Mac) files. This will mean that when you type in npm or npx, pnpm and pnpx will be substituted. Use the following commands to add the aliases to the corresponding file:
+
+```bash
+# Linux
+echo 'alias npm="pnpm"' >> .bashrc
+
+# Mac
+echo 'alias npm="pnpm"' >> .zshrc
+```
+
+## Running This Project
 
 First, run the development server:
 
@@ -46,4 +107,4 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploying Your Project
+## Deploying This Project
