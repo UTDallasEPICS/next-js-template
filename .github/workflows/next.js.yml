@@ -52,6 +52,7 @@ jobs:
             npm prisma generate
           else
             echo "No models defined in 'prisma.schema'. Prisma Client NOT generated"
+          fi
           exit 0
       - name: Build with Next.js
         run: npm run build
