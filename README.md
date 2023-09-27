@@ -6,6 +6,23 @@ This project is the template used for all EPICS CS projects. The core technologi
 - [Prisma](https://prisma.io): A database ORM used to connect Next.js to a database
 - [PostgreSQL](https://www.postgresql.org): An open source SQL database
 
+<!-- markdownlint-disable-next-line MD033 -->
+<details><summary><h2>Table of Contents</h2></summary>
+
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+  - [Installing Node](#installing-node)
+    - [Node for Windows](#node-for-windows)
+    - [Node for Mac/Linux](#node-for-maclinux)
+  - [Installing Docker](#installing-docker)
+  - [Installing pnpm (recommended/optional)](#installing-pnpm-recommendedoptional)
+- [Running This Project](#running-this-project)
+- [Learn More](#learn-more)
+  - [Learn Next.js](#learn-nextjs)
+- [Deploying This Project](#deploying-this-project)
+
+</details>
+
 ## Getting Started
 
 1. The first thing to do is edit this file. The title and description of the project should reflect your project, the organization it is for, and the target functionality.
@@ -20,7 +37,7 @@ In order to run this project, a few technologies are required:
 - [Node.js](https://nodejs.org)
 - [Docker](https://www.docker.com)
 
-I you have these installed already, you can skip to [running this project](#running-this-project).
+If you have these installed already, you can skip to [running this project](#running-this-project).
 
 Node.js is what allows us to write all our applications in JavaScript. Usually, JavaScript is run only in a web browser. By building on top of Node.js, we can write code that is executed on the server, simpler to write, and/or more secure.
 
@@ -98,7 +115,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-### Next.js
+### Learn Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
