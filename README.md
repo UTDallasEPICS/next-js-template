@@ -18,7 +18,13 @@ This project is the template used for all EPICS CS projects. The core technologi
   - [Installing pnpm (recommended/optional)](#installing-pnpm-recommendedoptional)
 - [Running This Project](#running-this-project)
 - [Learn More](#learn-more)
+  - [Learn HTML, CSS, JavaScript, and TypeScript](#learn-html-css-javascript-and-typescript)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JavaScript](#javascript)
+    - [TypeScript](#typescript)
   - [Learn Next.js](#learn-nextjs)
+  - [Learn Prisma](#learn-prisma)
 - [Deploying This Project](#deploying-this-project)
 
 </details>
@@ -115,13 +121,37 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
+### Learn HTML, CSS, JavaScript, and TypeScript
+
+#### HTML
+
+Websites are built using HTML, CSS, and JavaScript. HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages[^1]. Examples of these structures include paragraphs, headings, headers, footers, lists, navigation, and images. Each one of these components is defined in an HTML file for every website you visit.
+
+[^1]: [What is HTML - Definition and Meaning of Hypertext Markup Language by freeCodeCamp](https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/)
+
+#### CSS
+
+#### JavaScript
+
+#### TypeScript
+
 ### Learn Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Official Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples)
+- [Official Next.js with Prisma Example](https://github.com/prisma/prisma-examples/tree/latest/typescript/rest-nextjs-api-routes)
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+### Learn Prisma
+
+To learn more about Prisma, take a look at the following resources:
+
+- [Prisma Documentation](https://www.prisma.io/docs)
+- [Learn Prisma](https://www.prisma.io/learn)
+- [Official Prisma Examples](https://github.com/prisma/prisma-examples)
 
 ## Deploying This Project
